@@ -18,7 +18,9 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs
+  threejs,
+  starbucks,
+  tesla
 } from '../assets/index.ts'
 
 export const navLinks = [
@@ -114,11 +116,12 @@ const experiences = [
   {
     title: 'FullStack Developer',
     company_name: 'pereine assur',
+    icon: tesla,
     iconBg: '#383E56',
     date: 'June 2022 - July 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with the product manager, to create high-quality products.',
+      'Developing a web application using React.js, NodeJs, and Mysql.',
+      'Collaborating with the product manager, to translate the project needs to features.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
     ]
@@ -126,13 +129,15 @@ const experiences = [
   {
     title: 'FullStack Developer',
     company_name: 'PAYBY',
+    icon: starbucks,
     iconBg: '#E6DEDD',
     date: 'April 2023 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Developing an end-to-end web application using AngularJs, Selenium, Robot Framework and Spring boot.',
+      'Collaborating with the development team, product manager to implement required features.',
+      'Implementation of a secure authentication system using Keycloak.',
+      'Implementing robust error handling mechanisms.',
+      'Generating detaitled reports for test results.'
     ]
   },
 ]
