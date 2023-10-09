@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className="text-[#915eff]">Yassine</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className="text-[#915eff]">Yassine Tadlaoui</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Full web stack developer, software engineer and machine learning enthusiast.
           </p>
@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-1 bottom-3 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div animate={{
