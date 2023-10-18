@@ -7,17 +7,15 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  python,
+  next,
   carrent,
   jobit,
   tripguide,
-  threejs,
   starbucks,
   tesla
 } from '../assets/index.ts'
@@ -74,8 +72,8 @@ const technologies = [
     icon: reactjs
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux
+    name: 'NextJs',
+    icon: next
   },
   {
     name: 'Tailwind CSS',
@@ -90,21 +88,13 @@ const technologies = [
     icon: mongodb
   },
   {
-    name: 'Three JS',
-    icon: threejs
-  },
-  {
     name: 'git',
     icon: git
   },
   {
-    name: 'figma',
-    icon: figma
+    name: 'python',
+    icon: python
   },
-  {
-    name: 'docker',
-    icon: docker
-  }
 ]
 
 const experiences = [
