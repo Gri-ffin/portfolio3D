@@ -11,8 +11,11 @@ const SectionWrapper = ({ children, idName }: { children: React.ReactNode, idNam
       viewport={{ once: true, amount: 0.5 }}
       className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
     >
+      <span className="hash-span" id={idName}>
+        &nbsp;
+      </span>
+
       {children}
-      <span className="hash-span" id={idName} />
     </motion.section>
   )
 }
