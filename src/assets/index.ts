@@ -24,9 +24,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import classroomChat from './classroom-chat.png'
+import spotifyClone from './spotify-clone.png'
+import mangaReader from './manga-reader.png'
 
 export {
   logo,
@@ -52,7 +52,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  classroomChat,
+  spotifyClone,
+  mangaReader
 };
