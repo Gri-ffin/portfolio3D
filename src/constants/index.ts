@@ -13,10 +13,10 @@ import {
   git,
   python,
   next,
-  carrent,
-  jobit,
-  tripguide,
   starbucks,
+  classroomChat,
+  mangaReader,
+  spotifyClone,
   tesla
 } from '../assets/index.ts'
 
@@ -146,7 +146,7 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: carrent,
+    image: classroomChat,
     source_code_link: 'https://github.com/gri-ffin/classroom-chat'
   },
   {
@@ -167,7 +167,7 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: jobit,
+    image: spotifyClone,
     source_code_link: 'https://github.com/gri-ffin/spotify-clone'
   },
   {
@@ -188,7 +188,7 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: tripguide,
+    image: mangaReader,
     source_code_link: 'https://github.com/gri-ffin/manga-reader'
   }
 ]
