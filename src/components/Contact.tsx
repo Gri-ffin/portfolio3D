@@ -15,11 +15,21 @@ const Contact = () => {
   })
   const [loading, setLoading] = useState(false)
 
-  const handleSubmit = (e: React.EventHandler) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setLoading(true)
+
+
 
   }
-  const handleChange = (e: React.ChangeEvent) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.currentTarget
+    setForm({ ...form, [name]: value })
 
+    emailjs.send(
+      import.meta.env.VITE_SERVICEID,
+      import.meta.env.VITE_TEMPLATEID,
+    )
   }
 
   return (
