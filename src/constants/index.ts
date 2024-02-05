@@ -13,11 +13,11 @@ import {
   git,
   python,
   next,
-  starbucks,
   classroomChat,
   mangaReader,
   spotifyClone,
-  tesla
+  pereine,
+  payby
 } from '../assets/index.ts'
 
 export const navLinks = [
@@ -94,14 +94,14 @@ const technologies = [
   {
     name: 'python',
     icon: python
-  },
+  }
 ]
 
 const experiences = [
   {
     title: 'FullStack Developer',
     company_name: 'pereine assur',
-    icon: tesla,
+    icon: pereine,
     iconBg: '#383E56',
     date: 'June 2022 - July 2022',
     points: [
@@ -114,7 +114,7 @@ const experiences = [
   {
     title: 'FullStack Developer',
     company_name: 'PAYBY',
-    icon: starbucks,
+    icon: payby,
     iconBg: '#E6DEDD',
     date: 'April 2023 - May 2023',
     points: [
@@ -124,7 +124,7 @@ const experiences = [
       'Implementing robust error handling mechanisms.',
       'Generating detaitled reports for test results.'
     ]
-  },
+  }
 ]
 
 const projects = [
