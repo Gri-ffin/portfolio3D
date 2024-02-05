@@ -3,7 +3,9 @@ import { Canvas, useFrame } from '@react-three/fiber'
 import { PointMaterial, Preload, Points } from '@react-three/drei'
 import * as random from 'maath/random/dist/maath-random.cjs'
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Stars = (props: any) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const ref = useRef<any>()
   const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 })
   useFrame((_, delta) => {
