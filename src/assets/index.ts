@@ -25,6 +25,7 @@ import pereine from './company/pereine.jpeg'
 import classroomChat from './classroom-chat.png'
 import spotifyClone from './spotify-clone.png'
 import mangaReader from './manga-reader.png'
+import timewise from './timewise.png'
 
 export {
   logo,
@@ -50,5 +51,6 @@ export {
   pereine,
   classroomChat,
   spotifyClone,
-  mangaReader
+  mangaReader,
+  timewise
 }

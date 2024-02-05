@@ -15,6 +15,7 @@ import {
   next,
   classroomChat,
   mangaReader,
+  timewise,
   spotifyClone,
   pereine,
   payby
@@ -169,6 +170,27 @@ const projects = [
     ],
     image: spotifyClone,
     source_code_link: 'https://github.com/gri-ffin/spotify-clone'
+  },
+  {
+    name: 'TimeWise',
+    description:
+      'A simple minimal web application that allows people to track their todos.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'chakraui',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'firebase',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: timewise,
+    source_code_link: 'https://github.com/gri-ffin/timewise'
   },
   {
     name: 'Manga Reader',
