@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@react-three/drei": "^9.86.0",
-    "@react-three/fiber": "^8.14.3",
+    "@react-three/drei": "^9.99.0",
+    "@react-three/fiber": "^8.15.16",
     "framer-motion": "^10.16.4",
-    "maath": "^0.10.4",
+    "random@latest": "link:maath/random@latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
