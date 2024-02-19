@@ -7,12 +7,8 @@ import {
   html,
   css,
   reactjs,
-  tailwind,
   nodejs,
-  mongodb,
-  git,
   python,
-  next,
   classroomChat,
   mangaReader,
   timewise,
@@ -77,24 +73,8 @@ const technologies = [
     icon: reactjs
   },
   {
-    name: 'NextJs',
-    icon: next
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind
-  },
-  {
     name: 'Node JS',
     icon: nodejs
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb
-  },
-  {
-    name: 'git',
-    icon: git
   },
   {
     name: 'python',
