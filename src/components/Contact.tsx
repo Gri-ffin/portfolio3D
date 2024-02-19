@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react'
-import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
 import { styles } from '../styles'
 import { EarthCanvas } from '.'
@@ -47,7 +46,7 @@ const Contact = () => {
   return (
     <SectionWrapper idName='contact'>
       <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
-        <motion.div className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
+        <div className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
           <p className={styles.sectionSubText}>Get in touch!</p>
           <h3 className={styles.sectionHeadText}>Contact</h3>
           <form
@@ -95,11 +94,11 @@ const Contact = () => {
               {loading ? 'Sending...' : 'Send'}
             </button>
           </form>
-        </motion.div>
+        </div>
 
-        <motion.div className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+        <div className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
           <EarthCanvas />
-        </motion.div>
+        </div>
       </div>
     </SectionWrapper>
   )
