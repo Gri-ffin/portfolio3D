@@ -36,7 +36,7 @@ const About = () => {
       <p className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         A passionate and fast learner Full Stack Software Developer having
         experience in building Web application with Typescript / ReactJs /
-        NodeJs / AngularJs and some other cool libraries and frameworks.
+        NodeJs / ReactNative and some other cool libraries and frameworks.
       </p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
